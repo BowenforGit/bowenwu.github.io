@@ -42,6 +42,48 @@ profiles:
     url: uploads/resume.pdf
     label: Download my resume
 
+education:
+  - area: PhD in Computer Science
+    institution: ETH Zurich
+    date_start: 2023-06-01
+    date_end: ''
+  - area: MSc Computer Science
+    institution: ETH Zurich
+    date_start: 2020-09-01
+    date_end: 2023-04-01
+    summary: |
+      Graduated with Distinction.
+  - area: BSc Computer Science
+    institution: The Chinese University of Hong Kong
+    date_start: 2016-09-01
+    date_end: 2020-06-01
+    summary: |
+      First-Class Honours.
+      
+work:
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
