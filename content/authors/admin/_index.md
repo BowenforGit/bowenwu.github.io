@@ -47,6 +47,7 @@ education:
     institution: ETH Zurich
     date_start: 2023-06-01
     date_end: ''
+    summary: Expected to graduate in 2027.
   - area: MSc Computer Science
     institution: ETH Zurich
     date_start: 2020-09-01
@@ -59,30 +60,36 @@ education:
     date_end: 2020-06-01
     summary: |
       First-Class Honours.
-      
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Software Engineer Intern
+    company_name: Meta
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+    date_start: 2025-05-27
+    date_end: 2025-08-22
+    summary: GPU-accelerated [Nimble](https://github.com/facebookincubator/nimble) file reader for the open-source query engine [Velox](https://velox-lib.io/).
+  - position: Research Intern
+    company_name: Microsoft Gray Systems Lab
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: 2025-05-27
+    date_end: 2025-08-16
+    summary: SQL query acceleration with distributed multi-GPU clusters.
+  - position: Consultant
+    company_name: ETH Juniors & Swisscom
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-08-01
+    date_end: 2025-10-01
+    summary: Database design, Enterprise digitalization.
+  - position: Software Engineer Intern
+    company_name: Amazon Web Service
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-09-15
+    date_end: 2023-02-15
+    summary: Database internals, Query rewriting and optimization.
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
