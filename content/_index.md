@@ -12,8 +12,6 @@ sections:
       # The user's folder name in content/authors/
       username: admin
     design:
-      spacing:
-        padding: [0, 0, 0, 0]
       biography:
         style: 'text-align: justify; font-size: 0.8em;'
   - block: resume-experience
@@ -22,8 +20,6 @@ sections:
       # The user's folder name in `content/authors/`
       username: admin
     design:
-      spacing:
-        padding: [0, 0, 0, 0]
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
@@ -32,14 +28,11 @@ sections:
     id: publications
     content:
       title: Publications
-      text: ""
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
-      spacing:
-        padding: [0, 0, 0, 0]
       view: citation
   # - block: collection
   #   content:
