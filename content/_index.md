@@ -33,13 +33,15 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: citation
-  - block: collection
-    content:
-      filters:
-        folders:
-          - blog
-    design:
       spacing:
         padding: ['3rem', 0, '6rem', 0]
+      view: citation
+  # - block: collection
+  #   content:
+  #     filters:
+  #       folders:
+  #         - blog
+  #   design:
+  #     spacing:
+  #       padding: ['3rem', 0, '6rem', 0]
 ---
