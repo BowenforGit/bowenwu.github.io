@@ -8,6 +8,13 @@ appearance:
   mode: system
   color: blue
 
+# Global container width
+section:
+  container: "xl"   # Options: sm, md, lg, xl, full
+
+custom_css:
+  - css/custom.css
+
 # SEO
 marketing:
   seo:

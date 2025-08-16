@@ -2,9 +2,9 @@
 title: 'Home'
 date: 2023-10-24
 type: landing
-design:
-  # Default section spacing
-  spacing: "1rem"
+# design:
+#   # Default section spacing
+#   spacing: "1rem"
 sections:
   - block: resume-biography
     id: biography
@@ -33,8 +33,8 @@ sections:
           - publication
         exclude_featured: false
     design:
-      spacing:
-        padding: ['3rem', 0, '6rem', 0]
+      # spacing:
+      #   padding: ['3rem', 0, '6rem', 0]
       view: citation
   # - block: collection
   #   content:
