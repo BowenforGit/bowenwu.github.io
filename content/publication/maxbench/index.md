@@ -3,7 +3,7 @@ title: 'Powerful GPUs or Fast Interconnects: Analyzing Relational Workloads on M
   GPUs'
 authors:
 - Marko Kabić
-- Bowen Wu
+- admin
 - Jonas Dann
 - Gustavo Alonso
 date: '2025-06-30'

@@ -2,7 +2,7 @@
 title: Cracking Vector Search Indexes
 authors:
 - Vasilis Mageirakos
-- Bowen Wu
+- admin
 - Gustavo Alonso
 date: '2025-06-30'
 publication_types:

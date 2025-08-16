@@ -1,7 +1,7 @@
 ---
 title: Efficiently Processing Joins and Grouped Aggregations on GPUs
 authors:
-- Bowen Wu
+- admin
 - Dimitrios Koutsoukos
 - Gustavo Alonso
 date: '2024-01-01'
