@@ -4,7 +4,7 @@ date: 2023-10-24
 type: landing
 design:
   # Default section spacing
-  spacing: "4rem"
+  spacing: "1rem"
 sections:
   - block: resume-biography
     id: biography
@@ -34,12 +34,12 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  # - block: collection
-  #   content:
-  #     filters:
-  #       folders:
-  #         - blog
-  #   design:
-  #     spacing:
-  #       padding: ['3rem', 0, '6rem', 0]
+  - block: collection
+    content:
+      filters:
+        folders:
+          - blog
+    design:
+      spacing:
+        padding: ['3rem', 0, '6rem', 0]
 ---
