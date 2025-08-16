@@ -7,6 +7,7 @@ design:
   spacing: "4rem"
 sections:
   - block: resume-biography
+    id: biography
     content:
       # The user's folder name in content/authors/
       username: admin
@@ -16,6 +17,7 @@ sections:
       biography:
         style: 'text-align: justify; font-size: 0.8em;'
   - block: resume-experience
+    id: experiences
     content:
       # The user's folder name in `content/authors/`
       username: admin
@@ -25,6 +27,7 @@ sections:
       # Education or Experience section first?
       is_education_first: true
   - block: collection
+    id: publications
     content:
       title: Publications
       text: ""
