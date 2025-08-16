@@ -3,6 +3,9 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+custom_css:
+  - css/custom.css
+
 # Appearance
 appearance:
   mode: system
@@ -11,9 +14,6 @@ appearance:
 # Global container width
 section:
   container: "xl"   # Options: sm, md, lg, xl, full
-
-custom_css:
-  - css/custom.css
 
 # SEO
 marketing:
