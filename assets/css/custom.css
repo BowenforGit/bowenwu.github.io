@@ -29,7 +29,7 @@
 
 /* Remove excessive vertical gap between title and list */
 .pub-list {
-  margin-top: 0.5rem;
+  margin-top: -10rem;
 }
 
 /* Tighten spacing between publication entries */
