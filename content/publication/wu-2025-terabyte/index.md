@@ -1,8 +1,8 @@
 ---
 title: Terabyte-Scale Analytics in the Blink of an Eye
 authors:
-- '**Bowen Wu***'
-- Wei Cui*
+- Bowen Wu
+- Wei Cui
 - Carlo Curino
 - Matteo Interlandi
 - Rathijit Sen
