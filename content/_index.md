@@ -26,6 +26,16 @@ sections:
       is_education_first: true
   - block: collection
     content:
+      title: Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: citation
+  - block: collection
+    content:
       filters:
         folders:
           - blog
