@@ -3,11 +3,11 @@ title: 'Powerful GPUs or Fast Interconnects: Analyzing Relational Workloads on M
   GPUs'
 authors:
 - Marko Kabić
-- Bowen Wu
+- '**Bowen Wu**'
 - Jonas Dann
 - Gustavo Alonso
 date: '2025-01-01'
-publishDate: '2025-08-15T23:50:05.950906Z'
+publication: '*To appear in VLDB 2025*'
 publication_types:
 - article-journal
 ---
