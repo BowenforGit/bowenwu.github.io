@@ -6,7 +6,7 @@ authors:
 - Carlo Curino
 - Matteo Interlandi
 - Rathijit Sen
-date: '2025-01-01'
+date: '2025-08-01'
 publication_types:
 - article-journal
 publication: '*Under review*'
