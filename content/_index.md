@@ -36,6 +36,7 @@ sections:
       # spacing:
       #   padding: ['3rem', 0, '6rem', 0]
       view: citation
+      css_style: '.pub-list.margin-top: -10rem;'
   # - block: collection
   #   content:
   #     filters:
