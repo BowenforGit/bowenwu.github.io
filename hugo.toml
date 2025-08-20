@@ -43,7 +43,7 @@ homeNewsMax = 7
 
 # Lists parameters
 paginationSize = 100
-listSummaries = false
+listSummaries = true
 listDateFormat = 'Jan 2006'
 
 # Breadcrumbs
