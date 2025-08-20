@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://bowenwu.github.io/'
 languageCode = 'en-us'
 title = 'Bowen Wu'
 theme = 'typo'
@@ -93,3 +93,7 @@ url = "/me"
 [markup]
 [markup.highlight]
 style = 'algol'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
