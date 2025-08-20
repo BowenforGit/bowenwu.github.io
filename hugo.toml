@@ -15,7 +15,7 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = """About Me"""
 homeIntroContent = """
-Hi! I’m Bowen, a PhD candidate in Computer Science at ETH Zürich, 
+Hi! I’m Bowen, a PhD candidate in Computer Science at ETH Zürich🇨🇭, 
 working with Professors [Gustavo Alonso](https://inf.ethz.ch/people/person-detail.alonso.html) 
 and [Ana Klimovic](https://anakli.inf.ethz.ch/) to accelerate databases for heterogeneous computing platforms. 
 My research explores how to unleash the full power of **GPUs** and advanced interconnects for **high-performance data analytics**. 
@@ -39,10 +39,11 @@ homeCollection = 'publications'
 
 homeNewsTitle = 'News'
 homeNews = 'news'
+homeNewsMax = 7
 
 # Lists parameters
 paginationSize = 100
-listSummaries = true
+listSummaries = false
 listDateFormat = 'Jan 2006'
 
 # Breadcrumbs

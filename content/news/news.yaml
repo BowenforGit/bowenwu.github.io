@@ -6,14 +6,15 @@
   date: "2025-06-23"
   read_more: false
   content: ""
-- title: "Attended SIGMOD 2025 in Berlin for our [paper](http://localhost:1313/publications/gpuops/)"
+- title: "Attended SIGMOD 2025 in Berlin for our paper"
   date: "2025-06-22"
-  read_more: false
+  read_more: true
+  read_more_url: "/publications/gpuops/"
   content: ""
 - title: "Submitted my internship work with Microsoft GSL"
   date: "2025-04-01"
   read_more: true
-  read_more_url: "publications/multigpu/"
+  read_more_url: "/publications/multigpu/"
   content: ""
 - title: "Invited talk at Huawei Edinburgh Research Center"
   date: "2025-03-13"
@@ -26,4 +27,9 @@
 - title: "Attended CIDR 2025 in Amsterdam"
   date: "2025-01-19"
   read_more: false
+  content: ""
+- title: "Our paper on efficient GPU-based database operators is accepted to SIGMOD'25"
+  date: "2024-10-15"
+  read_more: false
+  read_more_url: "/publications/gpuops/"
   content: ""
