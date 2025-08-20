@@ -16,6 +16,7 @@ def main(yaml_path, output_dir):
         content = item.get('content', '')
         meta = {k: v for k, v in item.items() if k != 'content'}
         meta['hidePagination'] = item.get('hidePagination', True)
+        meta['summary'] = item.get('summary', ' ')
         date = item.get('date')
         if not date:
             print(f"Warning: No date found for news item '{title}', skipping.")
@@ -32,7 +33,7 @@ def main(yaml_path, output_dir):
                     md.write(f'{k}: {"false" if not v else "true"}\n')
                 else:
                     md.write(f'{k}: {v}\n')
-            md.write('---\n')
+            md.write('---\n\n')
             md.write(content + '\n')
 
 if __name__ == '__main__':
