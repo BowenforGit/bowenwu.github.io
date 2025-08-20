@@ -36,11 +36,26 @@
   <div class="list-container">
     {{ with site.Params.homeNewsTitle }}<h1>{{ . }}</h1>{{ end }}
 
-    {{ $count := cond (gt site.Params.paginationSize 0) site.Params.paginationSize 5 }}
-    {{ $pages := (where .Site.RegularPages "Section" site.Params.homeNews).ByDate.Reverse }}
+    {{ $maxNews := site.Params.homeNewsMax | default 7 }}
 
-    {{ range first $count $pages }}
+    {{ $pages := (where .Site.RegularPages "Section" site.Params.homeNews).ByDate.Reverse }}
+    {{ $newsCount := len $pages }}
+
+    {{ range first $maxNews $pages }}
       {{ partial "news-entry.html" . }}
+    {{ end }}
+
+    {{ if gt $newsCount $maxNews }}
+      {{ $moreNews := index $pages $maxNews }}
+
+      <div class="post-line">
+        <p class="line-date">Earlier</p>
+        <div></div>
+          <p class="line-title">
+            <a href="{{ site.Params.homeNews }}">Read more →</a>
+          </p>
+        </div>
+      </div>
     {{ end }}
   </div>
 {{ end }}
