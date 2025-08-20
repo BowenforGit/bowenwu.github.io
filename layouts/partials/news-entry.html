@@ -1,0 +1,26 @@
+<div class="post-line">
+  {{ $dateFormat := site.Params.listDateFormat | default "2 Jan 2006" }}
+
+  {{/* safer default precedence with parens */}}
+  {{ if (default true (.Parent.Param "showListDate")) }}
+    <p class="line-date">{{ .Date | time.Format $dateFormat }}</p>
+  {{ end }}
+
+  {{ $read  := .Params.read_more | default false }}
+  {{ $url   := default .RelPermalink .Params.read_more_url }}
+  {{ $isExt := hasPrefix $url "http" }}
+
+  <div>
+    <p class="line-title">
+      {{ if $read }}
+        <a class="news-title-link"
+           href="{{ $url | safeURL }}"
+           {{ if $isExt }}target="_blank" rel="noopener noreferrer"{{ end }}>
+          {{ .Title | markdownify }}
+        </a>
+      {{ else }}
+        <span class="news-title">{{ .Title | markdownify }}</span>
+      {{ end }}
+    </p>
+  </div>
+</div>

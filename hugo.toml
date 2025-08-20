@@ -1,0 +1,95 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Bowen Wu'
+theme = 'typo'
+
+[params]
+# Meta description
+description = "Bowen's personal website"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = """About Me"""
+homeIntroContent = """
+Hi! I’m Bowen, a PhD candidate in Computer Science at ETH Zürich, 
+working with Professors [Gustavo Alonso](https://inf.ethz.ch/people/person-detail.alonso.html) 
+and [Ana Klimovic](https://anakli.inf.ethz.ch/) to accelerate databases for heterogeneous computing platforms. 
+My research explores how to unleash the full power of **GPUs** and advanced interconnects for **high-performance data analytics**. 
+Along the way, I’ve worked with **Meta**, **Microsoft** Gray Systems Lab, 
+**AWS** Redshift, and **Swisscom**.
+
+Prior to my PhD study, I obtained my Master's degree (with distinction) also from ETH 
+and Bachelor's degree (First-Class honours) from the Chinese University of Hong Kong (CUHK). 
+You can find out more about my past experience in my [**resume**](resume.pdf). 
+"""
+
+footerContent = """© 2025 Bowen Wu | Powered by [Hugo](https://gohugo.io/) and [tomfran/typo](https://github.com/tomfran/typo) | Last updated: Aug 19, 2025"""
+
+avatarPath = "/images/avatar.jpeg"
+avatarAlt  = "Bowen Wu"
+avatarSize = 120
+
+# Collection to display on home
+homeCollectionTitle = 'Publications'
+homeCollection = 'publications'
+
+homeNewsTitle = 'News'
+homeNews = 'news'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = 'Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "gmail"
+url = "mailto:bowen.wu@inf.ethz.ch"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/wubowen-cs/"
+
+[[params.social]]
+name = "googlescholar"
+url = "https://scholar.google.com/citations?user=u2PdaHoAAAAJ&hl=en&authuser=1"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/BowenforGit"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "publications"
+url = "/publications"
+
+[[params.menu]]
+name = "teaching+supervision"
+url = "/teaching"
+
+[[params.menu]]
+name = "reading list"
+url = "/reading-list"
+
+[[params.menu]]
+name = "me"
+url = "/me"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'

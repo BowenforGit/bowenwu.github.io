@@ -1,0 +1,45 @@
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-left">
+        <div class="header">
+
+            {{ if or (not (.Param "hideHeader")) .IsHome }}
+
+            <h1 class="header-title">
+                <a href="{{ site.BaseURL }}">{{ site.Title }}</a>
+            </h1>
+
+            <div class="header-menu">
+                {{ $currentPage := . }}
+
+                {{ with site.Params.menu }}
+                {{ range . }}
+
+                <p
+                    class="small {{ if eq .name (lower $currentPage.Name) }} bold {{end}}">
+                    <a href="{{ .url }}" {{ if and (isset . "newTab") .newTab
+                        }}target="_blank" rel="noopener noreferrer" {{ end }}>
+                        /{{.name }}
+                    </a>
+                </p>
+                {{ end }}
+                {{ end }}
+            </div>
+            {{ end }}
+
+        </div>
+    </div>
+
+    {{ with site.Params.avatarPath }}
+      <a class="header-avatar-link" href="{{ "/" | relURL }}">
+        <img
+          class="header-avatar"
+          src="{{ . | relURL }}"
+          alt="{{ site.Params.avatarAlt | default site.Title }}"
+          width="{{ site.Params.avatarSize | default 80 }}"
+          height="{{ site.Params.avatarSize | default 80 }}"
+          loading="lazy" decoding="async">
+      </a>
+    {{ end }}
+  </div>
+</header>

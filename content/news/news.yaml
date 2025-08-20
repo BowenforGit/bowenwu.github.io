@@ -1,0 +1,29 @@
+- title: "Joined Meta as an SWE intern"
+  date: "2025-05-27"
+  read_more: true
+  content: "I joined Meta as an SWE intern to work on GPU-accelerated [Nimble](https://github.com/facebookincubator/nimble) file reader for the open-source query engine [Velox](https://velox-lib.io/)."
+- title: "Internship work featured in Carlo Curino's keynote in DaMon 2025"
+  date: "2025-06-23"
+  read_more: false
+  content: ""
+- title: "Attended SIGMOD 2025 in Berlin for our [paper](http://localhost:1313/publications/gpuops/)"
+  date: "2025-06-22"
+  read_more: false
+  content: ""
+- title: "Submitted my internship work with Microsoft GSL"
+  date: "2025-04-01"
+  read_more: true
+  read_more_url: "publications/multigpu/"
+  content: ""
+- title: "Invited talk at Huawei Edinburgh Research Center"
+  date: "2025-03-13"
+  read_more: false
+  content: ""
+- title: "Invited talk at IBM Research Center (Zurich)"
+  date: "2025-03-03"
+  read_more: false
+  content: ""
+- title: "Attended CIDR 2025 in Amsterdam"
+  date: "2025-01-19"
+  read_more: false
+  content: ""
