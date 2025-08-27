@@ -1,3 +1,14 @@
+- title: "Finished a 12-week internship with Meta"
+  date: "2025-08-22"
+  read_more: true
+  content: >
+    I worked on decoding Nimble files using GPU acceleration in the open-source query engine Velox. 
+    The implementation is based on Wave, an alternative to libcudf, 
+    that features aggressive kernel fusion to reduce memory round-trips.
+    The three main challenges were (1) decoding nested-encoded data without materializing intermediate results;
+    (2) dealing with chunked data efficiently; and (3) evaluating filters while decoding.
+    PRs are available [here](https://github.com/facebookincubator/velox/pulls?q=is%3Apr+author%3ABowenWu-bw+).
+    I will also present this work at the Velox Tech Talk in September. Stay tuned!
 - title: "Joined Meta as an SWE intern"
   date: "2025-05-27"
   read_more: true
@@ -24,7 +35,7 @@
   date: "2025-03-03"
   read_more: false
   content: ""
-- title: "Attended CIDR 2025 in Amsterdam"
+- title: "Attended CIDR 2025 in Amsterdam and gave a talk at the Gong show"
   date: "2025-01-19"
   read_more: false
   content: ""

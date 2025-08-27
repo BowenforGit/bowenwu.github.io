@@ -27,7 +27,7 @@ and Bachelor's degree (First-Class honours) from the Chinese University of Hong 
 You can find out more about my past experience in my [**resume**](resume.pdf). 
 """
 
-footerContent = """© 2025 Bowen Wu | Powered by [Hugo](https://gohugo.io/) and [tomfran/typo](https://github.com/tomfran/typo) | Last updated: Aug 19, 2025"""
+footerContent = """© 2025 Bowen Wu | Powered by [Hugo](https://gohugo.io/) and [tomfran/typo](https://github.com/tomfran/typo) | Last updated: Aug 27, 2025"""
 
 avatarPath = "/images/avatar.jpeg"
 avatarAlt  = "Bowen Wu"
